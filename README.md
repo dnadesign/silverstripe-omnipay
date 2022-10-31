@@ -12,6 +12,14 @@ The aim of this module is to make it easy for developers to add online payments 
 nutshell, it wraps the PHP Omnipay payments library and provides some additional functionality. To understand more about
 omnipay, see: https://github.com/thephpleague/omnipay
 
+## DNA NOTE
+
+This fork has been created for the tyrehub website.
+Omnipay has been downgraded to v2 to get the Laybuy module to work.
+SilverShop requires silvertsripe-omnipay 3@dev, only 3.0.0-alpha2 has the right packages for v2
+but has a duplicated key in yaml which is reported as an issue (either by SS4 or PHP 8).
+This fork fixes it.
+
 ## Version
 
 3.0 for SilverStripe 4
